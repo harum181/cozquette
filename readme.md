@@ -1,4 +1,5 @@
 <p align="center"><img src="http://i.imgur.com/QWahdmN.png"></p>
+<p align="center"><img src="http://i.imgur.com/vYDq9ts.png"></p>
 
 <p align="center">
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
