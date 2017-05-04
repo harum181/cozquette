@@ -1,0 +1,91 @@
+// import file variabel  
+@import '_vars.sass'
+
+// import font
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700')
+// @import url('node_modules/bootstrap-sass/assets/stylesheets/bootstrap')
+
+// mixin style
+=lato-700
+  font-family: 'Lato'
+  font-weight: 700
+
+=lato-400
+  font-family: 'Lato'
+  font-weight: 400
+
+=lato-300
+  font-family: 'Lato'
+  font-weight: 300
+
+=sision
+	transition: 300ms all ease
+
+// normalize css
+a 
+	text-decoration: none
+a:hover
+	text-decoration: none
+a,span,h1,h2,h3,h4,h5,h6,li,p
+	font-family: 'Lato'
+
+// button style
+.button-main
+	text-transform: uppercase
+	+lato-400
+	padding: 10px 20px
+	background-color: $black-blue
+	border: 1px solid $black-blue
+	color: $white
+	transition: 300ms all ease
+	font-size: 14px
+	letter-spacing: 1.7px
+.button-main:hover,.button-main:focus,.button-main:active
+	background-color: $white
+	color: $black-blue
+	text-decoration: none
+
+.button-accent
+	text-transform: uppercase
+	+lato-400
+	padding: 10px 20px
+	border: 1px solid $black-blue
+	color: $black-blue
+	transition: 300ms all ease
+	font-size: 14px
+	letter-spacing: 1.7px
+.button-accent:hover,.button-accent:focus,.button-accent:active
+	border: 1px solid $muted
+	color: $muted
+	text-decoration: none
+
+.button-oval
+	text-transform: uppercase
+	+lato-400
+	padding: 10px 20px
+	border: 1px solid $black-blue
+	color: $black-blue
+	transition: 300ms all ease
+	font-size: 14px
+	border-radius: 100px
+	letter-spacing: 1.7px
+.button-oval:hover,.button-oval:focus,.button-oval:active
+	background-color: $black-blue
+	border: 1px solid $black-blue
+	color: $white
+	text-decoration: none
+
+.button-white
+	text-transform: uppercase
+	+lato-400
+	padding: 10px 20px
+	border: 1px solid $white
+	color: $white
+	transition: 300ms all ease
+	font-size: 14px
+	letter-spacing: 1.7px
+.button-white:hover,.button-white:focus,.button-white:active
+	border: 1px solid $muted
+	color: $muted
+	background-color: $white
+	text-decoration: none
